@@ -5,7 +5,7 @@ A simple barebones HTTPS Java server that returns Hello World built with Bazel.
 
 Run the server:
 ```
-bazel run java/com/example:hello
+bazel run //java/com/example:hello
 ```
 
 Access the endpoint:
